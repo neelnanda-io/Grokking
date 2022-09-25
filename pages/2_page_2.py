@@ -6,10 +6,6 @@ import numpy as np
 
 import streamlit as sd
 # %%
-fig = px.line(np.arange(5))
-# fig.show()
-sd.plotly_chart(fig)
-# %%
 fig = px.line(np.arange(10))
 # fig.show()
 sd.plotly_chart(fig)
